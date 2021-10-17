@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "local_jackpots",
+  "info": {
+    "name": "local_jackpots"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "won": {
+      "type": "boolean"
+    },
+    "current_value": {
+      "type": "biginteger"
+    },
+    "user_id": {
+      "type": "biginteger"
+    },
+    "game_id": {
+      "type": "biginteger"
+    },
+    "win_history_id": {
+      "type": "biginteger"
+    }
+  }
+}

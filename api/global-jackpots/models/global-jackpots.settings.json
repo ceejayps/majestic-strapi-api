@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "global_jackpots",
+  "info": {
+    "name": "global_jackpots"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "won": {
+      "type": "boolean"
+    },
+    "current_value": {
+      "type": "biginteger"
+    },
+    "user_id": {
+      "type": "biginteger"
+    },
+    "black_tokens": {
+      "type": "biginteger"
+    },
+    "silver_tokens": {
+      "type": "biginteger"
+    },
+    "platinum_tokens": {
+      "type": "biginteger"
+    },
+    "diamond_tokens": {
+      "type": "biginteger"
+    },
+    "win_history_id": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/local-jackpots",
+      "handler": "local-jackpots.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/local-jackpots/count",
+      "handler": "local-jackpots.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/local-jackpots/:id",
+      "handler": "local-jackpots.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/local-jackpots",
+      "handler": "local-jackpots.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/local-jackpots/:id",
+      "handler": "local-jackpots.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/local-jackpots/:id",
+      "handler": "local-jackpots.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

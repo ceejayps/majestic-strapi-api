@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "win_histories",
+  "info": {
+    "name": "win_histories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value": {
+      "type": "biginteger"
+    },
+    "game_id": {
+      "type": "biginteger"
+    },
+    "user_id": {
+      "type": "biginteger"
+    },
+    "cashier_id": {
+      "type": "biginteger"
+    }
+  }
+}

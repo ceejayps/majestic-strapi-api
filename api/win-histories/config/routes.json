@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/win-histories",
+      "handler": "win-histories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/win-histories/count",
+      "handler": "win-histories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/win-histories/:id",
+      "handler": "win-histories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/win-histories",
+      "handler": "win-histories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/win-histories/:id",
+      "handler": "win-histories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/win-histories/:id",
+      "handler": "win-histories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

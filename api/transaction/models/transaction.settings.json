@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transactions",
+  "info": {
+    "name": "transaction"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "account_number": {
+      "type": "biginteger"
+    },
+    "token_balance": {
+      "type": "biginteger"
+    },
+    "deposit": {
+      "type": "biginteger"
+    },
+    "redeem": {
+      "type": "biginteger"
+    },
+    "reverse": {
+      "type": "boolean"
+    },
+    "user_id": {
+      "type": "biginteger"
+    },
+    "cashier_id": {
+      "type": "biginteger"
+    }
+  }
+}

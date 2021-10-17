@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cashiers",
+  "info": {
+    "name": "cashiers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cashier_name": {
+      "type": "string"
+    },
+    "deposits": {
+      "type": "biginteger"
+    },
+    "redeems": {
+      "type": "biginteger"
+    },
+    "profit": {
+      "type": "biginteger"
+    },
+    "payout_percentage": {
+      "type": "float"
+    },
+    "user_id": {
+      "type": "biginteger"
+    }
+  }
+}
